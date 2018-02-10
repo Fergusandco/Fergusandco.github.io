@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+.uk-logo {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.main-search input,
+.main-search button {
+    border: 0
+}
+
+.main-search button {
+    color: #fff;
+}
+
+.treg {}
+
+.treg::after,
+.treg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -15px;
+    width: 0;
+    height: 0;
+    border-top: 33px solid transparent;
+    border-left: 15px solid #648fe6;
+    border-bottom: 34px solid transparent;
+}
